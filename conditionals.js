@@ -13,7 +13,7 @@ if (cold) {
 
 console.log("Now you're ready to go outside!")
 */
-const temperature = -1;
+/*const temperature = -1;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -23,4 +23,16 @@ if (temperature < 0) {
   console.log("Short sleeves are fine.");
 }
 
-console.log("Now you're ready to go outside!");
+console.log("Now you're ready to go outside!");*/
+function wichSchool(age){
+  if (age < 13){
+    return "Elementary School";
+  }
+  else if (age >= 13 && age <=18){
+    return "Secondary School";
+  }
+  else {
+    return "Lighthouse Labs"
+  }
+}
+console.log(wichSchool(19));
